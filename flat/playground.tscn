@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://c4mjxptu8erqo"]
 
-[ext_resource type="Shader" uid="uid://dnlguelisv7fs" path="res://flat/shaders/simple_fading.gdshader" id="1_w0dp2"]
+[ext_resource type="Shader" uid="uid://t4cpticoedjl" path="res://flat/shaders/one_dim_function.gdshader" id="1_w0dp2"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_7c4l2"]
 shader = ExtResource("1_w0dp2")
