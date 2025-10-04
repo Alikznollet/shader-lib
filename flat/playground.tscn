@@ -1,11 +1,10 @@
 [gd_scene load_steps=5 format=3 uid="uid://c4mjxptu8erqo"]
 
-[ext_resource type="Shader" uid="uid://cddishufg6lki" path="res://flat/shaders/color_mix.gdshader" id="1_w0dp2"]
+[ext_resource type="Shader" uid="uid://v6ct70hs0i82" path="res://flat/shaders/circle.gdshader" id="1_w0dp2"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_7c4l2"]
 shader = ExtResource("1_w0dp2")
-shader_parameter/colorA = Color(0.74274147, 0.51406115, 0.2778791, 1)
-shader_parameter/colorB = Color(0.9549138, 0.79398286, 0.6903655, 1)
+shader_parameter/colorA = Color(0.7673491, 0.4627906, 0.5585863, 1)
 
 [sub_resource type="Gradient" id="Gradient_i5d22"]
 
