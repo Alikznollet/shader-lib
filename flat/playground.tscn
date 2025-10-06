@@ -1,11 +1,9 @@
 [gd_scene load_steps=5 format=3 uid="uid://c4mjxptu8erqo"]
 
-[ext_resource type="Shader" uid="uid://v6ct70hs0i82" path="res://flat/shaders/circle.gdshader" id="1_w0dp2"]
+[ext_resource type="Shader" uid="uid://cos71qjwrduxb" path="res://flat/shaders/pattern_grid.gdshader" id="1_w0dp2"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_7c4l2"]
 shader = ExtResource("1_w0dp2")
-shader_parameter/colorA = Color(0.7673491, 0.4627906, 0.5585863, 1)
-shader_parameter/colorB = Color(0.4745098, 0.5529412, 0.8352941, 1)
 
 [sub_resource type="Gradient" id="Gradient_i5d22"]
 
@@ -19,6 +17,10 @@ layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_left = -88.0
+offset_top = -145.0
+offset_right = -88.0
+offset_bottom = -145.0
 grow_horizontal = 2
 grow_vertical = 2
 
@@ -30,10 +32,10 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -32.0
-offset_top = -32.0
-offset_right = 32.0
-offset_bottom = 32.0
+offset_left = -128.0
+offset_top = -164.0
+offset_right = 172.0
+offset_bottom = 136.0
 grow_horizontal = 2
 grow_vertical = 2
 texture = SubResource("GradientTexture2D_w0dp2")
